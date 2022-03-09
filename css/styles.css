@@ -38,6 +38,10 @@ a {
     background-color: #f6f6f6;
 }
 
+ul {
+    list-style: none;
+}
+
 /* BUTTONS */
 
 .btn {
@@ -90,10 +94,6 @@ header {
 
 .header-col.logo img {
     vertical-align: middle;
-}
-
-.header-bar ul {
-    list-style: none;
 }
 
 .header-bar li {
@@ -191,4 +191,88 @@ section.centered {
     font-size: 2rem;
     font-weight: bold;
     background-image: url('../img/stars.svg');
+}
+
+/* FOOTER */
+footer {
+    background-color: #23272a;
+    color: white;
+    padding: 5rem 0;
+}
+
+footer h2,
+footer h3 {
+    font-weight: bolder;
+    color: #7289da;
+    margin-bottom: 1em;
+}
+
+footer h2 {
+    font-size: 2.5rem;
+}
+
+footer h3 {
+    font-size: 0.8rem;
+}
+
+.footer-top {
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #7289da;
+}
+
+.footer-col {
+    float:left;
+    width: calc(100%/6);
+}
+
+/* FOOTER INFOBOX */
+.footer-col.infobox {
+    width: calc(100%/3);
+}
+
+.infobox div {
+    margin-bottom: 1em;
+}
+
+.infobox .language-select img {
+    height: 1em;
+    width: auto;
+}
+
+.infobox .socials span {
+    font-size: 1em;
+    margin-right: 1em;
+}
+
+/* FOOTER COLUMS WITH LISTS */
+
+.footer-col li {
+    font-size: 0.8rem;
+    line-height: 1.5rem;
+}
+
+/* FOOTER BOTTOM */
+
+.footer-bottom {
+    padding: 1rem 0;
+}
+
+.footer-bottom .logo {
+    display: inline-block;
+    height: 2em;
+    text-align: left;
+    vertical-align: middle;
+}
+
+.footer-bottom .logo img {
+    height: 100%;
+    width: auto;
+    vertical-align: middle;
+    float: left;
+}
+
+
+.footer-bottom .registrati {
+    vertical-align: middle;
+    float: right;
 }
