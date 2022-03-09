@@ -30,6 +30,14 @@ a {
     text-decoration: none;
 }
 
+.bgwhite {
+    background-color: white;
+}
+
+.bggrey {
+    background-color: #f6f6f6;
+}
+
 /* BUTTONS */
 
 .btn {
@@ -126,4 +134,44 @@ header {
     margin-bottom: 2rem;
     font-size: 1.2rem;
     line-height: 2rem;
+}
+
+/* SECTIONS */
+
+.section-col {
+    float:left;
+}
+
+.section-col.img {
+    width: 65%;
+    vertical-align: top;
+    padding: 6rem 0;;
+}
+
+.section-col.text {
+    width: 35%;
+    padding: 8rem 0;;
+}
+
+section h2 {
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+
+section p {
+    font-size: 1.2em;
+    line-height: 1.2em;
+}
+
+/* usiamo le classi utility "imgfirst" e "imglast" per mettere un padding tra le due colonne nel section  */
+
+.imgfirst .text,
+.imglast .img {
+    padding-left: 3rem;
+}
+
+.imgfirst .img,
+.imglast .text {
+    padding-right: 3rem;
 }
