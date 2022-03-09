@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "Whitney", sans-serif;
+}
+
+img {
+    width: 100%;
+}
+
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+/* COMMON */
+.container {
+    width: 70%;
+    margin: auto;
+}
+
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+/* BUTTONS */
+
+.btn {
+    display: inline-block;
+    border-radius: 50px;
+}
+
+.btn-small {
+    font-size: 0.8em;
+    line-height: 2em;
+    padding: 0 1em;
+}
+
+.btn-large {
+    font-size: 1em;
+    line-height: 3em;
+    padding: 0 1.5em;
+}
+
+.btn-white {
+    background-color: white;
+    color: black;
+}
+
+.btn-black {
+    background-color: black;
+    color:white;
+}
+
+/* HEADER */
+header {
+    height: 4rem;
+    background-color: #3161e0;
+}
+
+.header-bar {
+    vertical-align: middle;
+    text-align: center;
+}
+
+.header-col {
+    float: left;
+    vertical-align: middle;
+    line-height: 4rem;
+}
+
+.header-col.logo img {
+    vertical-align: middle;
+}
+
+.header-bar ul {
+    list-style: none;
+}
+
+.header-bar li {
+    display: inline-block;
+    color: white;
+    margin: 0 1rem;
+}
+
+
+.header-col.logo,
+.header-col.accedi {
+    width: 10%;
+}
+.header-col.nav {
+    width: 80%;
+    font-size: 0.8em;
+}
+
+/* JUMBOTRON */
+
+.jumbotron {
+    background-image: url('../img/jumbo.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding: 7rem 0;
+    text-align: center;
+}
+
+.jumbotron-content {
+    width: 50%;
+    margin: auto;
+}
+
+.jumbotron-title {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+
+.jumbotron-text {
+    margin-bottom: 2rem;
+    font-size: 1.2rem;
+    line-height: 2rem;
+}
