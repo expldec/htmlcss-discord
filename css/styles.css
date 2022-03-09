@@ -67,6 +67,10 @@ a {
     color:white;
 }
 
+.btn-purple {
+    background-color: #8ea1e1;
+    color:white;
+}
 /* HEADER */
 header {
     height: 4rem;
@@ -144,7 +148,6 @@ header {
 
 .section-col.img {
     width: 65%;
-    vertical-align: top;
     padding: 6rem 0;;
 }
 
@@ -174,4 +177,18 @@ section p {
 .imgfirst .img,
 .imglast .text {
     padding-right: 3rem;
+}
+
+section.centered {
+    text-align: center;
+    padding: 8rem 0;
+}
+
+.calltoaction {
+    padding: 2rem 2rem 0;
+    margin: 0 auto 2rem;
+    width: fit-content;
+    font-size: 2rem;
+    font-weight: bold;
+    background-image: url('../img/stars.svg');
 }
